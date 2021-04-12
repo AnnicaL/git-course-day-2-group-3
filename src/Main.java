@@ -8,6 +8,7 @@ public class Main {
         int y = 5;
 
         adding(x, y);
+        multiply(x, y);
 
     }
     public static void adding(int x, int y){
@@ -15,5 +16,11 @@ public class Main {
             out.println(result);
 
         }
+
+        public static void multiply (int x, int y){
+        int result = x * y;
+        out.println(result);
+
+    }
     }
 
