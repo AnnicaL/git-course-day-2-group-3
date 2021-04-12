@@ -8,6 +8,8 @@ public class Main {
         int y = 5;
 
         adding(x, y);
+        subtract(x, y);
+
 
     }
     public static void adding(int x, int y){
@@ -15,5 +17,13 @@ public class Main {
             out.println(result);
 
         }
+
+    public static void subtract(int x, int y){
+        int result = x - y;
+        out.println(result);
+
     }
+
+    }
+
 
