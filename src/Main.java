@@ -10,11 +10,18 @@ public class Main {
         adding(x, y);
         subtract(x, y);
 
+        multiply(x, y);
 
     }
     public static void adding(int x, int y){
            int result = x + y;
             out.println(result);
+
+        }
+
+        public static void multiply (int x, int y){
+        int result = x * y;
+        out.println(result);
 
         }
 
@@ -25,5 +32,6 @@ public class Main {
     }
 
     }
+
 
 
